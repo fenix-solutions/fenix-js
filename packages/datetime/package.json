@@ -1,0 +1,11 @@
+{
+	"name": "@fenix-js/datetime",
+	"author": "JCHINC",
+	"main": "./bundles/datetime.umd.js",
+	"module": "./src/datetime.js",
+	"typings": "./datetime.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fenix-solutions/fenix-js.git"
+	}
+}

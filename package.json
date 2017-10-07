@@ -1,0 +1,34 @@
+{
+	"name": "@fenix-js/datetime",
+	"version": "1.0.0",
+	"description": "Datetime module",
+	"main": "index.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"clear": "rimraf ./dist",
+		"transpile": "npm run clear && tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fenix-solutions/fenix-js.git"
+	},
+	"keywords": [
+		"Fenix",
+		"JS",
+		"DateTime"
+	],
+	"author": "JCHINC",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/fenix-solutions/fenix-js/issues"
+	},
+	"homepage": "https://github.com/fenix-solutions/fenix-js#readme",
+	"devDependencies": {
+		"@types/node": "^8.0.32",
+		"rimraf": "^2.6.2",
+		"typescript": "^2.5.3",
+		"rollup": "0.50.0",
+		"rollup-plugin-node-resolve": "3.0.0",
+		"rollup-plugin-sourcemaps": "0.4.2"
+	}
+}
